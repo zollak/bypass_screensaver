@@ -16,13 +16,13 @@
 
 bypass_screensaver_vbs.bat file:
 
-```
+```bat
 %windir%\SysWoW64\cmd.exe /c cscript C:\bypass_screensaver.vbs
 ```
 
 bypass_screensaver.vbs file:
 
-```
+```csharp
 Set ws = CreateObject("WScript.Shell") 
 Do 
     Wscript.Sleep 50000 
