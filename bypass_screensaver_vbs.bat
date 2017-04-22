@@ -1,0 +1,1 @@
+%windir%\SysWoW64\cmd.exe /c cscript C:\bypass_screensaver.vbs
