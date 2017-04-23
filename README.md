@@ -37,10 +37,11 @@ Add-Type -AssemblyName System.Windows.Forms
 - run vbs script from startup folder directly
 
 
-## Solution:
-1. Push **Windows+R**
-2. Run **shell:startup**
-3. copy bat file to current user's startup folder that call vbscript. After windows start it will be run as foreground command.
+## Solution to Add Startup Programs for a "Specific User" Only:
+1. You could also press **Windows+R** to open Run
+2. Type **shell:Startup**, and click/tap on OK.
+	- C:\Users\**(User-Name)**\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+3. Copy bat file to current user's startup folder that call vbscript. After windows start it will be run as foreground command.
 
 bypass_screensaver_vbs.bat file:
 
