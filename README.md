@@ -40,7 +40,7 @@ Add-Type -AssemblyName System.Windows.Forms
 ## Solution to Add Startup Programs for a "Specific User" Only:
 1. You could also press **Windows+R** to open Run
 2. Type **shell:Startup**, and click/tap on OK.
-	- C:\Users\**(User-Name)**\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+	- C:\Users\ **(User-Name)** \AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 3. Copy bat file to current user's startup folder that call vbscript. After windows start it will be run as foreground command.
 
 bypass_screensaver_vbs.bat file:
