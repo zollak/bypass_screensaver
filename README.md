@@ -24,7 +24,7 @@ Loop
 
 F15 is valid key (SHIFT + F3) but nothing use it.
 
-## Win8.1 did not allow:
+## The following did not work for Win8.1
 - run vbs script directly from registry
 	- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 	- HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
